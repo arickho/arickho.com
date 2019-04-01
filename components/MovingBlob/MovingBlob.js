@@ -65,7 +65,7 @@ const SvgCanvas = styled.svg.attrs({
   height: 700,
   xmlns: 'http://www.w3.org/2000/svg'
 })`
-  fill: rgb(238, 80, 80);
+  fill: rgb(151, 241, 226);
 
   ${media.small`
     width: 100vw;

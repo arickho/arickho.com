@@ -10,23 +10,23 @@ export default function Intro() {
     <Wrapper>
       <ProfilePhoto alt="Profile" src="/static/profile_photo.jpg" />
       <Info>
-        <Heading.h2>
+        <Heading.h1 bold>
           Hello! <Wave />
-        </Heading.h2>
-        <Heading.h2>
-          {"I'm"} <span style={{ fontWeight: 'bold' }}>Jordan Garcia</span>, a
-          senior software engineer at{' '}
+        </Heading.h1>
+        <Heading.h1 bold>
+          {"I'm"} Jordan Garcia, a senior software engineer at{' '}
           <Link
-            fontSize="35px"
+            fontSize="50px"
             href="https://www.invitae.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            invitae
+            @invitae
           </Link>
           . An aussie {'"aw-see"'} (\ä-s\) currently residing in new york.{' '}
+          <br />
           <EmojiImage />
-        </Heading.h2>
+        </Heading.h1>
       </Info>
 
       <BlobWrapper>
@@ -43,7 +43,7 @@ const Wrapper = styled.header`
   justify-content: center;
   padding: 0 20px;
 
-  ${media.small`
+  ${media.medium`
     flex-direction: column;
     padding: 20px 40px;
   `};
@@ -56,7 +56,7 @@ const ProfilePhoto = styled.img`
   margin-right: 80px;
   z-index: 1;
 
-  ${media.small`
+  ${media.medium`
     margin-right: 0;
   `};
 `;

@@ -24,6 +24,7 @@ const ListHeading = styled(Heading.h3)`
   font-weight: 500;
   margin: 0 10px 0 0;
   padding: 0;
+  color: #f670a0;
 `;
 
 const Lists = styled.div`
@@ -198,7 +199,7 @@ class Index extends Component {
             <ResumeInformation>
               <Link
                 bold
-                color="#ee5050"
+                color="#97f1e2"
                 fontSize="22px"
                 href={resumeLink}
                 target="_blank"
@@ -241,7 +242,7 @@ class Index extends Component {
                   <li key={contact.name}>
                     <Link
                       bold
-                      color="#ee5050"
+                      color="#97f1e2"
                       fontSize="18px"
                       href={contact.url}
                       target="_blank"

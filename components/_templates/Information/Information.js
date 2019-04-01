@@ -7,6 +7,7 @@ import { Heading } from 'components';
 
 const SectionHeading = styled(Heading.h2)`
   text-align: right;
+  color: #97f1e2;
 
   ${media.small`
     text-align: left;
@@ -36,6 +37,7 @@ const Section = styled.section`
 
 const Content = styled.div`
   padding-left: 100px;
+  color: white;
 
   ${media.small`
     padding-left: 0px;
